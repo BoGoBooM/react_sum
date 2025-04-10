@@ -3,7 +3,5 @@ function sum(a, b) {
 }
 
 export const Sum = ({ a = 0, b = 0 }) => (
-  <p>
-    Sum of {a} and {b} is {sum(a, b)}
-  </p>
+  <p>{`Sum of ${a} and ${b} is ${sum(a, b)}`}</p>
 );
